@@ -40,5 +40,12 @@
   "externally_connectable": {
     "ids": ["*"],
     "matches": ["*://localhost/*"]
-  }
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [ "js_template.js" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
 } 
